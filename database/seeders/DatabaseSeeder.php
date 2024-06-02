@@ -24,7 +24,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Feature::create([
-            'image'=> 'https://www.iconsdb.com/icons/preview/green/plus-4-xxl.png',
+            'image'=> 'https://img.freepik.com/premium-vector/green-plus-sign-vector-icon-cross-symbol-safety-guidance_87543-6379.jpg',
             'route_name'=>'feature1.index',
             'name'=>'Calculate Sum',
             'description'=>'Calculates Sum of Two Numbers',
@@ -33,7 +33,7 @@ class DatabaseSeeder extends Seeder
         ]);
     
         Feature::create([
-            'image'=> 'https://www.iconsdb.com/icons/preview/green/minus-5-xxl.png',
+            'image'=> 'https://img.freepik.com/premium-psd/minus-green-icon-3d-render_568120-260.jpg',
             'route_name'=>'feature2.index',
             'name'=>'Calculate Difference',
             'description'=>'Calculates Difference of Two Numbers',
